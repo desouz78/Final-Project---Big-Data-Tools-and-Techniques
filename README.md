@@ -33,3 +33,45 @@ This structure allows for **graph-based analysis** of schools by state, city, te
 
 ## Project Structure
 
+All project files are organized as follows:
+
+```
+brazilian-rural-schools-neo4j/
+  Relacao_Escolas_Rurais_Atendidas.csv   # Main dataset
+  upload_to_neo4j.py                     # Python script to upload CSV data to Neo4j
+  notebooks/
+    FinalProject.ipynb                    # Jupyter notebook with all steps
+  README.md
+```
+
+## How to Run
+
+1. Install required libraries:
+
+```bash
+pip install pandas neo4j gdown
+```
+
+2. Ensure the CSV file is available locally (or download via `gdown`).  
+
+3. Update Neo4j Aura credentials in `upload_to_neo4j.py`:
+
+```python
+uri = "neo4j+s://<your-database>.databases.neo4j.io"
+user = "<your-username>"
+password = "<your-password>"
+```
+
+4. Run the Python script or Jupyter notebook to upload all data to Neo4j.
+
+## Visualizations
+
+Once uploaded, you can explore:
+
+- Graph structure in Neo4j Browser or Neo4j Bloom.  
+- Number of schools per state or city.  
+- Technologies and providers distribution.  
+
+## License
+
+This project is for **educational purposes** only.
