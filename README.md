@@ -4,7 +4,7 @@ This is a Final Project implementation for the **Big Data Tools and Techniques**
 
 ## Project Overview
 
-The goal of this project is to create a **graph database** to represent rural public schools in Brazil and their internet connections:
+The goal of this project is to create a **graph database** to represent rural schools in Brazil and their internet connections:
 
 - **States** and **Cities** are nodes.
 - **Schools** are nodes connected to their respective cities.
