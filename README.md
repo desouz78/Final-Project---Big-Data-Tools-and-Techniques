@@ -62,7 +62,7 @@ user = "<your-username>"
 password = "<your-password>"
 ```
 
-4. Run the Python script or Jupyter notebook to upload all data to Neo4j.
+4. Run the Python script (Jupyter notebook) provided to upload all data to Neo4j.
 
 ## Visualizations
 
